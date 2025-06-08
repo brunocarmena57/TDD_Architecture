@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TDD_Architecture.Tests</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.18.1" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.14" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TDD_Architecture.API\TDD_Architecture.API.csproj" />
+    <ProjectReference Include="..\..\src\TDD_Architecture.Application\TDD_Architecture.Application.csproj" />
+    <ProjectReference Include="..\..\src\TDD_Architecture.Infra\TDD_Architecture.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
