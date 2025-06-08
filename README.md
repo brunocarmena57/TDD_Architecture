@@ -1,6 +1,6 @@
-# TDD Architecture .NET API 📚
+# 📚 TDD Architecture .NET 📚
 
-## Overview 🔰
+## 🔰 Overview 🔰
 The **TDD Architecture .NET API** is a structured example demonstrating the implementation of TDD Architecture using .NET Core 8. This project serves as a resource for developers on understanding and applying TDD Architecture through best practices and development patterns.
 
 This repository showcases:
@@ -15,7 +15,7 @@ This repository showcases:
 
 * JSON Web Tokens (JWT) based Authentication and Authorization
 
-## Project Structure 🏗️
+## 🏗️ Project Structure 🏗️
 ```
 TDD_Architecture.Api
  ├── Config
@@ -86,20 +86,20 @@ TDD_Architecture.Tests
  │   ├── Users
 ```
 
-## Getting Started 🚀
+## 🚀 Getting Started 🚀
 
 Make sure you have the following installed:
 - [.NET Core 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
-### Installation ⚙️
+### ⚙️ Installation ⚙️
 ```bash
 # Clone the repository
 git clone https://github.com/brunocarmena57/TDD_Architecture.git
 cd TDD_Architecture
 ```
 
-### Configuration ⚙️
+### ⚙️ Configuration ⚙️
 Before running the application, update the **database connection string** in:
 - `appsettings.json`
 - `appsettings.Development.json`
@@ -111,24 +111,24 @@ Example:
 }
 ```
 
-### Running it ▶️
+### ▶️ Running it ▶️
 ```bash
 # Execute the API project
 dotnet run --project TDD_Architecture.Api
 ```
 
-## Authentication & Initial Token Usage 🔑
+## 🔑 Authentication & Initial Token Usage 🔑
 To get an authentication token, utilize the following credentials  and use the login endpoint:
 - **Email:** `usertest@test.com.br`
 
-## Features & Modules 🌟
+## 🌟 Features & Modules 🌟
 This application includes:
 
 * **Sales Registration (Adhering to Specified Business Logic)**  
 * **User Registration (Including Address and Contact Information)**   
 * **Product Management (Featuring Defined Product Categories)**   
 
-## Technologies Utilized 💻
+## 💻 Technologies Utilized 💻
 - **.NET Core 8** 
 - **Entity Framework Core**
 - **SQL Server** 
