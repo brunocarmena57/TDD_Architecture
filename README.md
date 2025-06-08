@@ -1,15 +1,19 @@
 # TDD Architecture .NET API 📚
 
-## Overview ✨ 
+## Overview 
 The **TDD Architecture .NET API** is a structured example demonstrating the implementation of TDD Architecture using .NET Core 8. This project serves as a resource for developers on understanding and applying TDD Architecture through best practices and development patterns.
 
 This repository showcases:
 
-👉 Separation of Concerns (SoC) via TDD Architecture
-👉 Code First Development with Database Migrations
-👉  Effective Utilization of the Repository Pattern, Unit of Work, and Singleton Design Pattern
-👉 Automated Unit Testing with xUnit Framework
-👉 JSON Web Tokens (JWT) based Authentication and Authorization
+* Separation of Concerns (SoC) via TDD Architecture
+
+* Code First Development with Database Migrations
+
+* Effective Utilization of the Repository Pattern, Unit of Work, and Singleton Design Pattern
+
+* Automated Unit Testing with xUnit Framework
+
+* JSON Web Tokens (JWT) based Authentication and Authorization
 
 ## Project Structure 🏗️
 ```
@@ -120,9 +124,9 @@ To get an authentication token, utilize the following credentials  and use the l
 ## Features & Modules 🌟
 This application includes:
 
-👉 **Sales Registration (Adhering to Specified Business Logic)**  
-👉 **User Registration (Including Address and Contact Information)**   
-👉 **Product Management (Featuring Defined Product Categories)**   
+* **Sales Registration (Adhering to Specified Business Logic)**  
+* **User Registration (Including Address and Contact Information)**   
+* **Product Management (Featuring Defined Product Categories)**   
 
 ## Technologies Utilized 💻
 - **.NET Core 8** 
